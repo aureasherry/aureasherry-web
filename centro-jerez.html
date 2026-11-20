@@ -77,7 +77,7 @@ footer{text-align:center;padding:30px 20px 50px;font-size:.8rem;color:var(--mute
   <div class="kicker">Mercado inmobiliario · Jerez</div>
   <h1>El centro de Jerez vuelve a estar habitado, y es el momento de entrar</h1>
   <p class="lead">Desde 2022, el precio de la vivienda en Jerez casi se ha duplicado. Te contamos qué ha pasado, por qué el centro histórico es la gran oportunidad y hacia dónde apunta el mercado.</p>
-  <p class="meta">Por Aurea Sherry Inmobiliaria · Noviembre 2026 · 4 min de lectura</p>
+  <p class="meta">Por Aurea Sherry Inmobiliaria · 4 min de lectura</p>
 
   <h2>2022: un edificio vacío que se convirtió en 24 hogares</h2>
   <p>En 2022 sacamos al mercado una promoción muy especial: <strong>24 viviendas en la confluencia de las calles Clavel y Gómez Carrillo</strong>, en pleno centro. Donde antes hubo dependencias de Correos y un almacén mayorista de ropa, había un edificio cerrado, con la persiana llena de pintadas.</p>
@@ -152,5 +152,6 @@ const D=[["Dic\n2021",1054],["Dic\n2022",1204],["Dic\n2023",1319],["Dic\n2024",1
 const max=2100;
 document.getElementById('bars').innerHTML=D.map((d,i)=>`<div class="bar${i==D.length-1?' last':''}"><em>${d[1].toLocaleString('es-ES')}</em><i style="height:${d[1]/max*170}px"></i><small>${d[0].replace('\n','<br>')}</small></div>`).join('');
 </script>
+<script src="asistente.js" defer></script>
 </body>
 </html>

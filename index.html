@@ -502,7 +502,7 @@ nav .brand small{color:transparent!important}
       <img src="logo.png" alt="Aurea Sherry Inmobiliaria" style="height:150px;width:auto">
       <ul><li><a href="#">Instagram</a></li><li><a href="#">Facebook</a></li><li><a href="#">LinkedIn</a></li><li><a href="https://wa.me/34690753472">WhatsApp</a></li></ul>
     </div>
-    <div class="legal"><span>© 2026 Aurea Sherry S.L.</span><span>Aviso legal · Privacidad · Cookies</span></div>
+    <div class="legal"><span>© 2026 Aurea Sherry S.L.</span><span>Aviso legal · <a href="privacidad.html">Privacidad</a> · Cookies</span></div>
   </div>
 </footer>
 
@@ -604,5 +604,6 @@ document.querySelectorAll('.menu a').forEach(a=>a.onclick=()=>document.getElemen
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}}),{threshold:.1});
 document.querySelectorAll('.rev').forEach(el=>io.observe(el));
 </script>
+<script src="asistente.js" defer></script>
 </body>
 </html>
