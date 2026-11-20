@@ -9,7 +9,7 @@
   var EMAIL = 'info@aureasherry.com';
   var DIRECCION = 'C/ Manuel de la Quintana, 2 · 11402 Jerez de la Frontera';
   /* Pega aquí la dirección de tu Google Apps Script (termina en /exec) */
-  var SCRIPT_URL = '';
+  var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw77xxp-MOo_Pn0Ekp_dNisBh5YjSee2-FFXKZpsm0qlyHSn6_1RnSWijk6gYpqLFE9/exec';
   var MAPS = 'https://www.google.com/maps/search/?api=1&query=Calle+Manuel+de+la+Quintana+2%2C+11402+Jerez+de+la+Frontera';
 
   function wa(texto) { return 'https://wa.me/' + WHATSAPP + '?text=' + encodeURIComponent(texto); }
